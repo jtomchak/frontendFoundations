@@ -1,0 +1,159 @@
+##HTML5
+* Review
+  * Node: In the HTML Document Object Model (DOM), everything is a node.
+  * Tag: The beginning of an HTML element, usually denoted with angle brackets surrounding a tag type. Ex: <p>
+  * Element: A distinct component of an HTML document, usually comprised of start and end tags surrounding some kind of content. Ex: <p></p>
+  * Attribute: Modifications to a given element.
+
+* Navitgation
+  * Just Fancy styled Links
+* Cross Browser
+  * GROSS
+  * Friends don't let friends support Internet Explorer 8
+  ```
+  <!--[if lt IE 9]>
+  the code here will only run if browser is older than IE 9
+  <![endif]-->
+  ```
+
+---
+
+##CSS3 Review
+* Selectors
+  * ID: denoted a hash symbol (#)
+   #container {
+    color:black
+  }
+
+  * Class: denoted by a period (.)
+    .leftColumn {
+      color:red
+    }
+
+  * Element: denoted by the tag name
+    nav {
+      height: 45px;
+      width: 100%;
+    }
+* States
+  * :link
+  * :vistied
+  * :hover
+  * :active
+  * :focus
+  <a class="navlink" href="#">Home</a>
+  a.navlink:hover {
+    color: green;
+  }
+
+* Elements
+* ::before 
+  * adds content text or a shape before the HTML element is selected.
+* ::after 
+  * adds content text or a shape after the HTML element is selected.
+* ::first-letter ::first-line
+
+* Properties 
+  * margin 
+  * border
+  * padding
+  * font 
+  * background
+  * display 
+    * display: none
+    * display: inline
+    * display: block
+    * visibility: hidden
+  [LEARN ME](https://resources.api.exeterlms.com/Resources/5cdb8f9b-3ac6-4ac7-93fe-83dd21bb5032)
+
+* Position
+  * relative
+  * absolute
+  * fixed
+  * top, right, bottom or left
+```
+  <style>
+    div {color:yellow; width:200px; height:50px; background:gray;}
+  </style>
+  <div>Some text here</div>
+```
+---
+
+## Cassacading Inheritance
+* **Ordering** - from least important to most
+    1. Importance (!important) - Overuse of !important is not good. 
+    2. Specificity :-/ 
+      * [Sample](http://jsbin.com/nahovis/2/edit?html,css)
+    3. Source Order
+      * [Sample](http://jsbin.com/pefuta/4/edit?html,css)
+
+  * Inheritance
+    * [Sample](http://jsbin.com/kiraseb/4/edit?html,css)
+  
+* **Styling Fonts**
+  * the web browser is going to rely on the user's system
+  * [Common Fonts](http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html)
+  * ems for relative font sizing
+  * @font-face (Go get me some fonts!)
+    * @font-face {
+        font-family: roboto-thin;
+        src: url(https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/fonts/Roboto/roboto-thin-webfont.ttf);
+      }
+
+###Challenge
+* [BOOM](https://codepen.io/Jtomchak/pen/jwQNpW/?editors=1100)
+* [Make it look like](https://upload.wikimedia.org/wikiversity/en/b/bd/Css1_1.png)
+
+
+* **Media Queries**
+  * in CSS3, we are able to target specific screen sizes.
+  * used extensivly for 'responsive design'
+  * queries used
+    * width and height of the viewport
+    * width and height of the device
+    * orientation (is the tablet/phone in landscape or portrait mode?)
+    * resolution  
+    * there is a pile, most used
+      1.  width , min-width , max-width
+      2. height , min-height , max-height
+  * @media (max-width: 768px) and (orientation: portrait) {
+      //these would only to screens width 768 or less
+      //like your mobile computing device
+    }
+  * viewport patch
+    * <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+* **Style and Layout**
+  * Position
+    * Static
+      * stacks elements, the default
+    * Relative
+      * position in some direction
+    * Absolute
+      * position relative to the body of the document
+    * Fixed
+      * position on the page, not the document, stays even when scrolling
+
+##Challenge 2
+* [BOOM](https://codepen.io/Jtomchak/pen/OgaLGL/)
+* [Make it look like](http://lewagon.github.io/html-css-challenges/03-box-model/)
+
+
+* **Resources**
+  * [Super Guide](https://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
+  * [Super Duper Guide](https://www.simplilearn.com/css3-resources-ultimate-list-article)
+* Pre-processors
+  * Less, Sass, Scss, Stylus, Css-Crush, Myth, Rework
+  * Cool, but why?
+    * Color (client color scheme)
+    * Duplication (all the browsers all the radius corners)
+    * Cascade (deeply nested)
+    * Calculation (font size plus wha?)
+    * Importing (double gross)
+  * Compiles to CSS
+
+
+
+##Bootstrap 3
+* Grid and Layout
+* 
