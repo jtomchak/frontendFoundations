@@ -122,6 +122,7 @@
     }
   * viewport patch
     * <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  * [ALL THE SIZES](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 * **Style and Layout**
   * Position
@@ -133,6 +134,13 @@
       * position relative to the body of the document
     * Fixed
       * position on the page, not the document, stays even when scrolling
+
+* **Responsive versus adaptive**
+  * responsive: respond to the size of the browser at any given point
+    * fluid and flexible
+  * adaptive: adaptive websites adapt to the width of the browser at a specific points. more like a snap too.
+  * [Animated Example](https://cdn.css-tricks.com/wp-content/uploads/2015/11/rwd-vs-adapt-example.gif)
+  * [More Examples](https://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
 
 ##Challenge 2
 * [BOOM](https://codepen.io/Jtomchak/pen/OgaLGL/)
