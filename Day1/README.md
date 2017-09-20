@@ -1,9 +1,12 @@
-##HTML5
+autoscale: true
+## HTML5
 * Review
   * Node: In the HTML Document Object Model (DOM), everything is a node.
   * Tag: The beginning of an HTML element, usually denoted with angle brackets surrounding a tag type. Ex: <p>
   * Element: A distinct component of an HTML document, usually comprised of start and end tags surrounding some kind of content. Ex: <p></p>
   * Attribute: Modifications to a given element.
+
+---
 
 * Navitgation
   * Just Fancy styled Links
@@ -18,7 +21,7 @@
 
 ---
 
-##CSS3 Review
+## CSS3 Review
 * Selectors
   * ID: denoted a hash symbol (#)
    #container {
@@ -46,6 +49,8 @@
     color: green;
   }
 
+---
+
 * Elements
 * ::before 
   * adds content text or a shape before the HTML element is selected.
@@ -66,6 +71,8 @@
     * visibility: hidden
   [LEARN ME](https://resources.api.exeterlms.com/Resources/5cdb8f9b-3ac6-4ac7-93fe-83dd21bb5032)
 
+  ---
+
 * Position
   * relative
   * absolute
@@ -77,6 +84,7 @@
   </style>
   <div>Some text here</div>
 ```
+
 ---
 
 ## Cassacading Inheritance
@@ -89,6 +97,8 @@
 
   * Inheritance
     * [Sample](http://jsbin.com/kiraseb/4/edit?html,css)
+
+---
   
 * **Styling Fonts**
   * the web browser is going to rely on the user's system
@@ -100,10 +110,13 @@
         src: url(https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/fonts/Roboto/roboto-thin-webfont.ttf);
       }
 
-###Challenge
+---
+
+### Challenge
 * [BOOM](https://codepen.io/Jtomchak/pen/jwQNpW/?editors=1100)
 * [Make it look like](https://upload.wikimedia.org/wikiversity/en/b/bd/Css1_1.png)
 
+---
 
 * **Media Queries**
   * in CSS3, we are able to target specific screen sizes.
@@ -124,6 +137,8 @@
     * <meta name="viewport" content="width=device-width, initial-scale=1.0">
   * [ALL THE SIZES](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
+---
+
 * **Style and Layout**
   * Position
     * Static
@@ -135,6 +150,8 @@
     * Fixed
       * position on the page, not the document, stays even when scrolling
 
+---
+
 * **Responsive versus adaptive**
   * responsive: respond to the size of the browser at any given point
     * fluid and flexible
@@ -142,10 +159,13 @@
   * [Animated Example](https://cdn.css-tricks.com/wp-content/uploads/2015/11/rwd-vs-adapt-example.gif)
   * [More Examples](https://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
 
+---
+
 ##Challenge 2
 * [BOOM](https://codepen.io/Jtomchak/pen/OgaLGL/)
 * [Make it look like](http://lewagon.github.io/html-css-challenges/03-box-model/)
 
+---
 
 * **Resources**
   * [Super Guide](https://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
@@ -160,8 +180,22 @@
     * Importing (double gross)
   * Compiles to CSS
 
-
+---
 
 ##Bootstrap 3
 * Grid and Layout
-* 
+*  
+
+---
+
+##Challenge 3
+  * Now add Bootstrap 3 to your movie favs page
+  * change the first card into a Jumbotron
+  * social card will now be buttons, tastfully placed and socially themed
+  * make your 3 movies into a col-md
+  * last card as a footer
+  * SCSS style use
+  * color theme, palette
+  * 
+
+---
