@@ -1,9 +1,13 @@
 autoscale: true
+
 ## HTML5
+
 * Review
   * Node: In the HTML Document Object Model (DOM), everything is a node.
-  * Tag: The beginning of an HTML element, usually denoted with angle brackets surrounding a tag type. Ex: <p>
-  * Element: A distinct component of an HTML document, usually comprised of start and end tags surrounding some kind of content. Ex: <p></p>
+  * Tag: The beginning of an HTML element, usually denoted with angle brackets
+    surrounding a tag type. Ex: <p>
+  * Element: A distinct component of an HTML document, usually comprised of
+    start and end tags surrounding some kind of content. Ex: <p></p>
   * Attribute: Modifications to a given element.
 
 ---
@@ -22,54 +26,45 @@ autoscale: true
 ---
 
 ## CSS3 Review
+
 * Selectors
-  * ID: denoted a hash symbol (#)
-   #container {
-    color:black
-  }
 
-  * Class: denoted by a period (.)
-    .leftColumn {
-      color:red
-    }
+  * ID: denoted a hash symbol (#) #container { color:black }
 
-  * Element: denoted by the tag name
-    nav {
-      height: 45px;
-      width: 100%;
-    }
+  * Class: denoted by a period (.) .leftColumn { color:red }
+
+  * Element: denoted by the tag name nav { height: 45px; width: 100%; }
+
 * States
   * :link
   * :vistied
   * :hover
   * :active
-  * :focus
-  <a class="navlink" href="#">Home</a>
-  a.navlink:hover {
-    color: green;
-  }
+  * :focus <a class="navlink" href="#">Home</a> a.navlink:hover { color: green;
+    }
 
 ---
 
 * Elements
-* ::before 
+* ::before
   * adds content text or a shape before the HTML element is selected.
-* ::after 
+* ::after
   * adds content text or a shape after the HTML element is selected.
 * ::first-letter ::first-line
 
-* Properties 
-  * margin 
+* Properties
+
+  * margin
   * border
   * padding
-  * font 
+  * font
   * background
-  * display 
+  * display
     * display: none
     * display: inline
     * display: block
     * visibility: hidden
-  [LEARN ME](https://resources.api.exeterlms.com/Resources/5cdb8f9b-3ac6-4ac7-93fe-83dd21bb5032)
+      [LEARN ME](https://resources.api.exeterlms.com/Resources/5cdb8f9b-3ac6-4ac7-93fe-83dd21bb5032)
 
   ---
 
@@ -78,6 +73,7 @@ autoscale: true
   * absolute
   * fixed
   * top, right, bottom or left
+
 ```
   <style>
     div {color:yellow; width:200px; height:50px; background:gray;}
@@ -88,31 +84,33 @@ autoscale: true
 ---
 
 ## Cassacading Inheritance
+
 * **Ordering** - from least important to most
-    1. Importance (!important) - Overuse of !important is not good. 
-    2. Specificity :-/ 
-      * [Sample](http://jsbin.com/nahovis/2/edit?html,css)
-    3. Source Order
-      * [Sample](http://jsbin.com/pefuta/4/edit?html,css)
+
+  1. Importance (!important) - Overuse of !important is not good.
+  2. Specificity :-/
+     * [Sample](http://jsbin.com/nahovis/2/edit?html,css)
+  3. Source Order
+     * [Sample](http://jsbin.com/pefuta/4/edit?html,css)
 
   * Inheritance
     * [Sample](http://jsbin.com/kiraseb/4/edit?html,css)
 
 ---
-  
+
 * **Styling Fonts**
   * the web browser is going to rely on the user's system
   * [Common Fonts](http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html)
   * ems for relative font sizing
   * @font-face (Go get me some fonts!)
-    * @font-face {
-        font-family: roboto-thin;
-        src: url(https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/fonts/Roboto/roboto-thin-webfont.ttf);
+    * @font-face { font-family: roboto-thin; src:
+      url(https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/fonts/Roboto/roboto-thin-webfont.ttf);
       }
 
 ---
 
 ### Challenge
+
 * [BOOM](https://codepen.io/Jtomchak/pen/jwQNpW/?editors=1100)
 * [Make it look like](https://upload.wikimedia.org/wikiversity/en/b/bd/Css1_1.png)
 
@@ -125,14 +123,12 @@ autoscale: true
     * width and height of the viewport
     * width and height of the device
     * orientation (is the tablet/phone in landscape or portrait mode?)
-    * resolution  
+    * resolution
     * there is a pile, most used
-      1.  width , min-width , max-width
+      1. width , min-width , max-width
       2. height , min-height , max-height
-  * @media (max-width: 768px) and (orientation: portrait) {
-      //these would only to screens width 768 or less
-      //like your mobile computing device
-    }
+  * @media (max-width: 768px) and (orientation: portrait) { //these would only
+    to screens width 768 or less //like your mobile computing device }
   * viewport patch
     * <meta name="viewport" content="width=device-width, initial-scale=1.0">
   * [ALL THE SIZES](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
@@ -155,13 +151,15 @@ autoscale: true
 * **Responsive versus adaptive**
   * responsive: respond to the size of the browser at any given point
     * fluid and flexible
-  * adaptive: adaptive websites adapt to the width of the browser at a specific points. more like a snap too.
+  * adaptive: adaptive websites adapt to the width of the browser at a specific
+    points. more like a snap too.
   * [Animated Example](https://cdn.css-tricks.com/wp-content/uploads/2015/11/rwd-vs-adapt-example.gif)
   * [More Examples](https://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
 
 ---
 
-##Challenge 2
+## Challenge 2
+
 * [BOOM](https://codepen.io/Jtomchak/pen/OgaLGL/)
 * [Make it look like](http://lewagon.github.io/html-css-challenges/03-box-model/)
 
@@ -182,20 +180,22 @@ autoscale: true
 
 ---
 
-##Bootstrap 3
+## Bootstrap 3
+
 * Grid and Layout
-*  
+*
 
 ---
 
-##Challenge 3
-  * Now add Bootstrap 3 to your movie favs page
-  * change the first card into a Jumbotron
-  * social card will now be buttons, tastfully placed and socially themed
-  * make your 3 movies into a col-md
-  * last card as a footer
-  * SCSS style use
-  * color theme, palette
-  * 
+## Challenge 3
+
+* Now add Bootstrap 3 to your movie favs page
+* change the first card into a Jumbotron
+* social card will now be buttons, tastfully placed and socially themed
+* make your 3 movies into a col-md
+* last card as a footer
+* SCSS style use
+* color theme, palette
+*
 
 ---

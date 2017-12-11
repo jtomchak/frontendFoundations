@@ -1,43 +1,50 @@
 autoscale:true
+
 # Slides meow
-* ```cd <to where you keep your stuff>```
-* ```git clone https://github.com/jtomchak/frontendfoundations.git```
-* ``` cd frontendfoundations ```
-* ```git checkout day3```
+
+* `cd <to where you keep your stuff>`
+* `git clone https://github.com/jtomchak/frontendfoundations.git`
+* `cd frontendfoundations`
 
 ---
+
 # Bootstrap
+
 ![inline](https://www.w3schools.com/bootstrap/bs_themes.jpg)
 
 ---
 
-# UI Framework 
-* It includes HTML and CSS based design templates for common user interface components like:
-  * Typography, 
-  * Forms, 
-  * Buttons, 
-  * Tables, 
-  * Navigations, 
-  * Dropdowns, 
-  * Alerts, 
-  * Modals, 
-  * Tabs, 
-  * Accordion, 
+# UI Framework
+
+* It includes HTML and CSS based design templates for common user interface
+  components like:
+  * Typography,
+  * Forms,
+  * Buttons,
+  * Tables,
+  * Navigations,
+  * Dropdowns,
+  * Alerts,
+  * Modals,
+  * Tabs,
+  * Accordion,
   * Carousel and many other as well as optional JavaScript extensions.
 
 ---
 
 # yeah, but why?
-* Save lots of time — 
-* Responsive features — 
-* Consistent design — 
-* Easy to use — 
-* Compatible with browsers — 
+
+* Save lots of time —
+* Responsive features —
+* Consistent design —
+* Easy to use —
+* Compatible with browsers —
 * Open Source — And the best part is, it is completely free to download and use.
 
 ---
 
 # What you get
+
 ```js
 bootstrap/
 |—— css/
@@ -58,6 +65,7 @@ bootstrap/
 ---
 
 # Wiring
+
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -79,12 +87,14 @@ bootstrap/
 ```
 
 ---
+
 # Bootstrap Grid System
-| Features| Extra small devices  Phones (<768px) | Tablets (≥768px)|Medium devices Desktops (≥992px)|Large devices Desktops (≥1200px)|
-| --------|:------------------------------------:| ---------------:|-------------------------------:|-------------------------------:|
-| Max container width| None (auto) |	750px	| 970px	| 1170px
-| Grid behavior	| Horizontal at all times	| Collapsed to start, horizontal above breakpoints  |  
-| Class prefix	|.col-xs-	 | .col-sm-	| .col-md-	| .col-lg- |
-|Max column width	|Auto	|~62px	|~81px	|~97px
+
+| Features            | Extra small devices Phones (<768px) |                                 Tablets (≥768px) | Medium devices Desktops (≥992px) | Large devices Desktops (≥1200px) |
+| ------------------- | :---------------------------------: | -----------------------------------------------: | -------------------------------: | -------------------------------: |
+| Max container width |             None (auto)             |                                            750px |                            970px |                           1170px |
+| Grid behavior       |       Horizontal at all times       | Collapsed to start, horizontal above breakpoints |
+| Class prefix        |              .col-xs-               |                                         .col-sm- |                         .col-md- |                         .col-lg- |
+| Max column width    |                Auto                 |                                            ~62px |                            ~81px |                            ~97px |
 
 ---
